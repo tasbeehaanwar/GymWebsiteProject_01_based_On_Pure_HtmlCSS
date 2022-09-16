@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Fira+Sans:ital,wght@1,200&display=swap');
+/*CSS Reset*/
+*{
+    color: white;
+    
+}
+body{
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Fira Sans', sans-serif; */
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 100vh; 
+    /* background: url('training-828732_960_720.webp');   */
+}
+
+.left{
+position: absolute;
+left: 10px;
+top: 20px;
+/* border: 2px solid red; */
+display: inline-block;
+}
+.mid{
+    /*To center any element you must Follow three conditions*/
+    /* display block
+    set the width 
+    set the margin to auto  */
+    display: block;
+    width: 33%;
+    margin: -80px auto;
+    /* border: 2px solid rgb(60, 255, 0); */
+    display: block;
+   
+    
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    /* border: 2px solid rgb(30, 0, 255); */
+    display: inline-block;
+    
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.navbar li a {
+    color: white;
+    padding: 23px 9px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:active{
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+.logo img{
+    width: 100px;
+    height: 12vh;
+    filter: invert(100%); /*We use Invert Function to convert the color of the img blacl to white*/
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    margin: 0px 2px;
+    /* background-color: white; */
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'Fira Sans', sans-serif; */
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    font-size: large;
+    
+}
+.container{
+    margin: 140px 60px ;
+    padding: 75px;
+    border-radius:30px;
+    /* border: 2px solid blue */
+    
+    
+}
+.btnsub{
+    margin: 0px 2px;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 3px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+
+}
+.btnsub:hover{
+    color: black;
+    background-color: white;
+    font-size: large;
+    
+}
+.formgroup input{
+    /* color: black; */
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 40px;
+    font-family: 'Baloo 2', cursive;
+}
+.formgroup .btnsub{
+    text-align: center;
+    
+}
+.container h1{
+    text-align: center;
+}
+.btnsub{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 40px;
+    font-family: 'Baloo 2', cursive;
+}
